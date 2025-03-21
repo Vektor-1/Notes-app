@@ -1,0 +1,23 @@
+.math-display {
+    display: block;
+    margin: 1em 0;
+    text-align: center;
+    overflow-x: auto;
+}
+
+.math-inline {
+    display: inline-block;
+    margin: 0 0.1em;
+    vertical-align: middle;
+}
+
+.math-display .katex-display,
+.math-inline .katex {
+    margin: 0;
+}
+
+.math-display:hover,
+.math-inline:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
